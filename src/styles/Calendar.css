@@ -9,20 +9,56 @@
 .calendar {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(auto-fill, 1fr);
   height: 90vh;
   border-left: #dadce0 1px solid;
 }
 
-.calendar div {
+.blockInCalendar {
   border-right: #dadce0 1px solid;
   border-top: #dadce0 1px solid;
   text-align: center;
   padding-top: 5%;
   color: #202124;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  height: 100%;
+}
+
+.blockInCalendar::-webkit-scrollbar {
+  display: none;
+}
+
+.blockInCalendar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 small {
   font-variant: small-caps;
   font-weight: 300;
+}
+
+.blockInCalendar ul {
+  height: 2rem;
+  list-style-type: none;
+  width: 100%;
+}
+.blockInCalendar ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(3, 155, 229);
+  color: #fff;
+  border-radius: 0.3rem;
+}
+.blockInCalendar ul li button {
+  background-color: inherit;
+  box-shadow: inset 0px 0px 1px 1px #018ace;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+.blockInCalendar ul li button:hover {
+  box-shadow: inset 0px 0px 6px 3px #017ebd;
 }
 
 .sun {

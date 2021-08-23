@@ -1,0 +1,1 @@
+function loadEvents(map, events) {}

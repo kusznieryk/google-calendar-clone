@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/google-calendar-clone/static/css/main.ba4ec375.chunk.css",
-    "main.js": "/google-calendar-clone/static/js/main.9896d851.chunk.js",
-    "main.js.map": "/google-calendar-clone/static/js/main.9896d851.chunk.js.map",
+    "main.js": "/google-calendar-clone/static/js/main.000179f0.chunk.js",
+    "main.js.map": "/google-calendar-clone/static/js/main.000179f0.chunk.js.map",
     "runtime-main.js": "/google-calendar-clone/static/js/runtime-main.4094efcb.js",
     "runtime-main.js.map": "/google-calendar-clone/static/js/runtime-main.4094efcb.js.map",
-    "static/js/2.1aa6d38f.chunk.js": "/google-calendar-clone/static/js/2.1aa6d38f.chunk.js",
-    "static/js/2.1aa6d38f.chunk.js.map": "/google-calendar-clone/static/js/2.1aa6d38f.chunk.js.map",
+    "static/js/2.bdbcd8f4.chunk.js": "/google-calendar-clone/static/js/2.bdbcd8f4.chunk.js",
+    "static/js/2.bdbcd8f4.chunk.js.map": "/google-calendar-clone/static/js/2.bdbcd8f4.chunk.js.map",
     "index.html": "/google-calendar-clone/index.html",
     "static/css/main.ba4ec375.chunk.css.map": "/google-calendar-clone/static/css/main.ba4ec375.chunk.css.map",
-    "static/js/2.1aa6d38f.chunk.js.LICENSE.txt": "/google-calendar-clone/static/js/2.1aa6d38f.chunk.js.LICENSE.txt"
+    "static/js/2.bdbcd8f4.chunk.js.LICENSE.txt": "/google-calendar-clone/static/js/2.bdbcd8f4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4094efcb.js",
-    "static/js/2.1aa6d38f.chunk.js",
+    "static/js/2.bdbcd8f4.chunk.js",
     "static/css/main.ba4ec375.chunk.css",
-    "static/js/main.9896d851.chunk.js"
+    "static/js/main.000179f0.chunk.js"
   ]
 }

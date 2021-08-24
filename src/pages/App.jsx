@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Redirect} from 'react-router-dom'
+import { Route, Redirect} from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 import { connect,Provider} from 'react-redux'
 
 
@@ -32,7 +33,7 @@ const {year, month}  = store.getState()['date']
   const CalendarCon = connect(mapStateEvents, mapDispatchEvents)(Calendar)
   return(
   <Provider store={store}> 
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <NavbarCon />
       <Route  exact path='/'> <Redirect to={`/${year}/${month}`} /></Route>
       <Route path='/:year/:month' component={CalendarCon} />
